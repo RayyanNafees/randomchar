@@ -16,8 +16,6 @@ var range = function(stop$start, stop = undefined, step = 1) {
 
 
 function choice(seq) {
-    // kdhg
-    'l';
     return seq[Math.floor(Math.random() * seq.length)];
 }
 
